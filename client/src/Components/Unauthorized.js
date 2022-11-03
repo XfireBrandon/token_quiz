@@ -7,7 +7,7 @@ const Unauthorized = ({getAuth}) => {
     return (
         <>
             <div className="header">Stop! Unauthorized!</div> 
-            <button className="btn" onClick={handleClick} >Get authorized</button>
+            <button className="btn" onClick={handleClick}>Get authorized</button>
         </>
     )
 }
